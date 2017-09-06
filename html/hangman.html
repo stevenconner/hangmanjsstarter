@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>JavaScript Hangman!</title>
+        <style>
+            .spanClass {
+                border-bottom: 2px solid #000;
+                min-width: 50px;
+                min-height: 50px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <script src="../js/hangman.js"></script>
+        <h1>Welcome to JavaScript Hangman!</h1>
+        <div class="wordContainer">
+            <img src="../images/hangman0.png" id="image">
+            <br>
+            <div id="spanContainer" class="spanContainer">
+                &nbsp;
+            </div>
+            <br>
+            <h3 id="livesLeft"></h3>
+            <h2 id="winorlose"></h2>
+        </div>
+        <div class="buttonContainer">
+            <hr>
+            <button id="a" type="button" onclick="buttonPress('a')">A</button>
+            <button id="b" type="button" onclick="buttonPress('b')">B</button>
+            <button id="c" type="button" onclick="buttonPress('c')">C</button>
+            <button id="d" type="button" onclick="buttonPress('d')">D</button>
+            <button id="e" type="button" onclick="buttonPress('e')">E</button>
+            <button id="f" type="button" onclick="buttonPress('f')">F</button>
+            <button id="g" type="button" onclick="buttonPress('g')">G</button>
+            <button id="h" type="button" onclick="buttonPress('h')">H</button>
+            <button id="i" type="button" onclick="buttonPress('i')">I</button>
+            <button id="j" type="button" onclick="buttonPress('j')">J</button>
+            <button id="k" type="button" onclick="buttonPress('k')">K</button>
+            <button id="l" type="button" onclick="buttonPress('l')">L</button>
+            <button id="m" type="button" onclick="buttonPress('m')">M</button>
+            <br>
+            <br>
+            <button id="n" type="button" onclick="buttonPress('n')">N</button>
+            <button id="o" type="button" onclick="buttonPress('o')">O</button>
+            <button id="p" type="button" onclick="buttonPress('p')">P</button>
+            <button id="q" type="button" onclick="buttonPress('q')">Q</button>
+            <button id="r" type="button" onclick="buttonPress('r')">R</button>
+            <button id="s" type="button" onclick="buttonPress('s')">S</button>
+            <button id="t" type="button" onclick="buttonPress('t')">T</button>
+            <button id="u" type="button" onclick="buttonPress('u')">U</button>
+            <button id="v" type="button" onclick="buttonPress('v')">V</button>
+            <button id="w" type="button" onclick="buttonPress('w')">W</button>
+            <button id="x" type="button" onclick="buttonPress('x')">X</button>
+            <button id="y" type="button" onclick="buttonPress('y')">Y</button>
+            <button id="z" type="button" onclick="buttonPress('z')">Z</button>
+        </div>
+    </body>
+</html>
